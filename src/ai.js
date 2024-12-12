@@ -8,22 +8,7 @@ suggests a recipe they could make with some or all of those ingredients. You
   too many extra ingredients. Format your response in markdown to make it easier to render to a web page
 `
 
-// 🚨👉 ALERT: Read message below! You've been warned! 👈🚨
-// If you're following along on your local machine instead of
-// here on Scrimba, make sure you don't commit your API keys
-// to any repositories and don't deploy your project anywhere
-// live online. Otherwise, anyone could inspect your source
-// and find your API keys/tokens. If you want to deploy
-// this project, you'll need to create a backend of some kind,
-// either your own or using some serverless architecture where
-// your API calls can be made. Doing so will keep your
-// API keys private.
-
-
-
-// Make sure you set an environment variable in Scrimba 
-// for HF_ACCESS_TOKEN
-const HF_ACCESS_TOKEN = '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';
+const HF_ACCESS_TOKEN = process.env.HF_ACCESS_TOKEN;
 
 const hf = new HfInference(HF_ACCESS_TOKEN)
 
