@@ -1,8 +1,19 @@
-# React + Vite
+# AI-Powered Recipe Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based web application that suggests recipes based on ingredients you have. It uses Hugging Face's AI model to generate creative and delicious recipes.
 
-Currently, two official plugins are available:
+## Features
+- Add and manage a list of ingredients.
+- Generate recipes dynamically using AI.
+- Smooth scrolling and interactive UI for a seamless experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology Stack
+- React
+- Hugging Face Inference API
+- React Markdown for rendering recipe content
+
+## Getting Started
+1. Clone the repository:
+   ```bash
+   git clone (https://github.com/NidhiPednekar/Recipe-Generator-React.git)
+   cd Recipe-Generator-React
